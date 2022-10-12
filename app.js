@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const port = process.env.PORT || 3000
-const db_url = "mongodb://localhost:27017/ToDo";
+const db_url = "mongodb://0.0.0.0:27017/ToDo";
 const mongoose = require('mongoose');
 
 
